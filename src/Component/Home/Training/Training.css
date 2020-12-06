@@ -1,0 +1,17 @@
+.training-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    
+}
+.training-img h5{
+    background-color: rgba(219, 149, 19, 0.774);
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight:bold;
+    text-align: center;
+}

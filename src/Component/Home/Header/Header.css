@@ -1,0 +1,16 @@
+.header-section{
+    margin-top: 120px;
+}
+.header-section h1{
+  font-weight:350;
+  font-size:50px;
+}
+.header-section button{
+    background-color: orange;
+    color: black;
+    padding: 10px 50px 10px 50px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+
+}
