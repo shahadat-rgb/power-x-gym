@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'
-const Navbar = () => {
+import powerX1 from '../../../Image & Icon/headerBackgroundc.jpg'
+const ClassNavbar = () => {
     return (
-        
-        <nav class="navbar navbar-expand-lg">
+    <div style={{backgroundImage:`linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(${powerX1})`}} className="mainHeader">
+        <div className='container'>
+         <nav class="navbar navbar-expand-lg">
                <h1 className='text-white'>POWER <span className='text-warning'> X</span></h1>
             <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,8 +37,12 @@ const Navbar = () => {
                 </ul>
             </div>
         </nav>
- 
+            
+            <h1  className='text-white text-center pt-5'>OUR CLASSES</h1>
+           
+        </div>
+        </div>
     );
 };
 
-export default Navbar;
+export default ClassNavbar;

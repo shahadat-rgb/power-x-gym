@@ -1,0 +1,18 @@
+.pricing-card{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+    padding: 20px;
+}
+.pricing-btn{
+    background-color: orange;
+    color: black;
+    padding: 10px 50px 10px 50px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}

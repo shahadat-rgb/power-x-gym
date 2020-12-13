@@ -1,5 +1,8 @@
 
 .footerBg{
     background-color: rgb(25, 31, 39);
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }

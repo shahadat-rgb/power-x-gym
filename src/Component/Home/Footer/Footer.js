@@ -34,6 +34,7 @@ const Footer = () => {
                  <img  className='pr-3' src={instragam} alt=""/>
                  <img  className='pr-3' src={tweiter} alt=""/>
                  <img  className='pr-3' src={watsapp} alt=""/>
+                 <p className='text-white pt-3'>Fourm</p>
               </div>
               <div className="col-md-2">
                 <p className='text-white'><b>Join our Newsletter</b></p>
@@ -41,7 +42,7 @@ const Footer = () => {
                 
               </div>
             </div>
-            <p className='text-white text-center pt-4'>copyright by shahadat hossain.all reight reserve</p>
+            <p className='text-secondary text-center pt-4'>copyright by shahadat hossain.all reight reserve</p>
         </div>
     </div>
     );

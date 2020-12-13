@@ -5,9 +5,7 @@
 }
 .card-contact{
     text-align: center;
-    border: none;
-    box-shadow:10px 15px 30px rgba(34, 36, 35, 0.13);;
-
+    box-shadow:10px 15px 30px rgba(34, 36, 35, 0.13);
 }
 .card-contact:hover{
     border: 2px solid orange;

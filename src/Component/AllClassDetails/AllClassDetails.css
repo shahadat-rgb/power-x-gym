@@ -1,0 +1,18 @@
+.card-date{
+    margin: 15px;
+    box-shadow:5px 10px 30px rgba(128, 128, 128, 0.171);
+    border: none;
+}
+.card-date p{
+    color:orange
+}
+.joinUs-btn{
+    background-color: orange;
+    color: black;
+    padding: 10px 50px 10px 50px;
+    outline: none;
+    border:  none;
+    font-size: 25;
+    margin-bottom: 50px;
+    cursor: pointer; 
+}
