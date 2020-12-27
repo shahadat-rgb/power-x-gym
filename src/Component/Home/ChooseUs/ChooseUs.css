@@ -1,11 +1,22 @@
 .card-contact img{
     margin: 1px auto;
+    height: 200px;
     padding-top: 25px;
     padding-bottom: 50px;
 }
 .card-contact{
     text-align: center;
     box-shadow:10px 15px 30px rgba(34, 36, 35, 0.13);
+
+
+}
+.card-contact p{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 .card-contact:hover{
     border: 2px solid orange;

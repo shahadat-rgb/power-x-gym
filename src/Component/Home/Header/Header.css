@@ -14,3 +14,35 @@
     font-size: 25px;
 
 }
+
+
+.play-btn {
+    background-color:#fff;
+    border-radius: 50%;
+    animation: animate 2s linear infinite;
+    cursor: pointer;
+    /* width: 300px;
+    height: 300px; */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:  #ffc107;
+   /* font-size: ; */
+   font-size: 200px;
+}
+
+@keyframes animate{
+  0%{
+    box-shadow: 0 0 0 0 rgba(255,193,7,0.7);
+  }
+  40%{
+    box-shadow: 0 0 0 50px rgba(255,193,7,0);
+  }
+  80%{
+    box-shadow: 0 0 0 50px rgba(255,193,7,0);
+  }
+  100%{
+    box-shadow: 0 0 0 rgba(255,193,7,0);
+  }
+}

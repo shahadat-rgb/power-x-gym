@@ -2,13 +2,13 @@ import { Link } from '@material-ui/core';
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import powerX1 from '../../Image & Icon/headerBackgroundc.jpg' 
-
 import './RegistrationForm.css'
+
 const RegistrationForm = () => {
     const { register, handleSubmit, errors } = useForm();
-    
     const onSubmit = data => {
         console.log(data);
+ 
     }
     return (
     <>
@@ -37,7 +37,7 @@ const RegistrationForm = () => {
                         <Link class="nav-link text-white" href="#" >Pricing</Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link text-white" href="#" >Blog</Link>
+                        <Link class="nav-link text-white" href="#"></Link>
                     </li>
                     <li class="nav-item">
                         <Link class="nav-link text-white" href="#" >Contact us</Link>
@@ -60,12 +60,12 @@ const RegistrationForm = () => {
               </div>
 
               <div className="col-md-4">
-                  <small>2</small>  <br/> <br/>
+              <a style={{color:'white',textDecoration:'none'}} href="/payment"><small>2</small></a> <br/> <br/>
                  <p className='text-secondary'>Bank Payment</p>
               </div>
 
               <div className="col-md-4">
-                 <small>3</small> <br/> <br/>
+              <a style={{color:'white',textDecoration:'none'}} href="/checkout">  <small>3</small> </a> <br/> <br/>
                  <p className='text-secondary'>Membership created</p>
               </div>
               </div>
@@ -73,14 +73,14 @@ const RegistrationForm = () => {
                     <div className="form-group row ">
                         <div className="col-md-6">
                         <p><b>First Name</b></p>
-                        <input type="text" ref={register({ required: true })} name=" first name" className="form-control" />
-                        {errors.name && <span className="text-danger">This field is required</span>}
+                        <input type="text" ref={register({ required: true })} name="firstName" className="form-control" />
+                        {errors.firstName && <span className="text-danger">first name is required</span>}
                         </div>
                         
                        <div className="col-md-6">
                        <p><b>Last Name</b></p>
-                       <input type="text" ref={register({ required: true })} name="last name"  className="form-control" />
-                        {errors.name && <span className="text-danger">This field is required</span>}
+                       <input type="text" ref={register({ required: true })} name="lastName"  className="form-control" />
+                        {errors.lastName && <span className="text-danger">last name is required</span>}
                        </div>
 
                     </div>
@@ -89,13 +89,13 @@ const RegistrationForm = () => {
                            <p><b>Email</b> </p>
                            
                        <input type="email" ref={register({ required: true })} name="email"  className="form-control" />
-                        {errors.email && <span className="text-danger">This field is required</span>}
+                        {errors.email && <span className="text-danger">Email is required</span>}
                        </div>
 
                         <div className="col-md-6">
                         <p><b>Phone Number</b></p>
                         <input type="text" ref={register({ required: true })} name="phone"  className='form-control'/>
-                        {errors.phone && <span className="text-danger">This field is required</span>}
+                        {errors.phone && <span className="text-danger">Phone number is required</span>}
                         </div>
                     </div>
                 
@@ -199,14 +199,14 @@ const RegistrationForm = () => {
                        <div className="col-md-6">
                            <p><b>Address</b></p>
                            
-                       <input type="text" ref={register({ required: true })} name='Address' className="form-control" />
-                        {errors.address && <span className="text-danger">This field is required</span>}
+                       <input type="text" ref={register({ required: true })} name='address' className="form-control" />
+                        {errors.address && <span className="text-danger">address is required</span>}
                        </div>
 
                         <div className="col-md-6">
                         <p><b>country</b></p>
-                        <input type='text' ref={register({ required: true })} name="Country"  className='form-control'/>
-                        {errors.country && <span className="text-danger">This field is required</span>}
+                        <input type='text' ref={register({ required: true })} name="country"  className='form-control'/>
+                        {errors.country && <span className="text-danger">counrtry name is required</span>}
                         </div>
                     </div>
                     <div className="form-group row">
@@ -214,18 +214,20 @@ const RegistrationForm = () => {
                            <p><b>City</b></p>
                            
                        <input type="text" ref={register({ required: true })} name='city'        className="form-control" />
-                        {errors.city && <span className="text-danger">This field is required</span>}
+                        {errors.city && <span className="text-danger">city name is required</span>}
                        </div>
 
                         <div className="col-md-6">
                         <p><b>post code</b></p>
-                        <input type="text" ref={register({ required: true })} name="post code"  className='form-control'/>
-                        {errors.postCode && <span className="text-danger">This field is required </span>}
+                        <input type="text" ref={register({ required: true })} name="postCode"  className='form-control'/>
+                        {errors.postCode && <span className="text-danger">post code is required </span>}
                         </div>
                     </div>
 
                     <div className="form-group text-right">
-                      <button type="submit" className="btn btn-brand pricing-btn">Next</button>
+                
+                <button type="submit" className="btn btn-brand pricing-btn"> <a style={{textDecoration:'none',color:'black'}} href="/payment">Next</a> </button>
+                
                     </div>
                 </form>
 

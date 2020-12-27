@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import powerX1 from '../../Image & Icon/headerBackgroundc.jpg'
+import powerX1 from  '../../Image & Icon/headerBackgroundc.jpg'
 import pricing1 from '../../Image & Icon/hipcravo-5UbIqV58CW8-unsplash.jpg'
 import pricing2 from '../../Image & Icon/penguinuhh-8VI6WwEEEHw-unsplash.jpg'
 import pricing3 from '../../Image & Icon/daniel-apodaca-WdoQio6HPVA-unsplash.jpg'
 
 import './Pricing.css'
-import {AiOutlineCheck } from "react-icons/ai";
+import {AiOutlineCheck, } from "react-icons/ai";
 
 const Pricing = () => {
     return (

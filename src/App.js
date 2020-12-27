@@ -2,9 +2,11 @@ import { createContext,useState } from 'react';
 import { Route,  BrowserRouter as Router  , Switch } from 'react-router-dom';
 import './App.css';
 import AllClassDetails from './Component/AllClassDetails/AllClassDetails';
+import Checkout from './Component/Checkout/Checkout';
 import Footer from './Component/Home/Footer/Footer';
 import Home from './Component/Home/Home';
 import OurClass from './Component/OurClass/OurClass';
+import PaymentMathod from './Component/PaymentMathod/PaymentMathod';
 import Pricing from './Component/Pricing/Pricing';
 
 import RegistrationForm from './Component/RegistrationForm/RegistrationForm';
@@ -37,7 +39,12 @@ function App() {
         <Route path='/registration-form'>
              <RegistrationForm></RegistrationForm>
         </Route>
-       
+       <Route path='/payment'>
+            <PaymentMathod></PaymentMathod>
+       </Route>
+       <Route path='/checkout'>
+            <Checkout></Checkout>
+       </Route>
      
          </Switch>
          <Footer></Footer>
