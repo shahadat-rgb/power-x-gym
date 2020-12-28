@@ -8,11 +8,8 @@ This is an single page website for gym where a user will get to see a video play
 ## Technology
 
 * React
-* Node.js
-* MongoDB
 * Bootstrap
 * Material UI
 * React-Bootstrap
 * Netlify
-* Heroku
 
