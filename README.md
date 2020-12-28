@@ -16,5 +16,3 @@ This is an single page website for gym where a user will get to see a video play
 * Netlify
 * Heroku
 
-## Screenshots
-
